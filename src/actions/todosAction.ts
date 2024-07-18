@@ -1,3 +1,4 @@
+"use server"
 import { db } from "@/db";
 import { todo } from "@/db/schema";
 import { asc, eq, not } from "drizzle-orm";
